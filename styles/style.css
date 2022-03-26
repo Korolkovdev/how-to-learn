@@ -34,7 +34,7 @@
 }
 
 .header__title {
-  width: 730;
+  width: 730px;
   font-size: 102px;
   font-weight: bold;
   margin: 0;
@@ -221,6 +221,7 @@
 }
 
 .feynman__title {
+  text-align: center;
   line-height: 115%;
   font-size: 120px;
   font-weight: bold;
@@ -362,15 +363,17 @@
 /* ———————————————————————————————— */
 
 .footer {
-
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .footer_position {
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logo_place_footer {
@@ -403,6 +406,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0px;
 }
 
 .column {
@@ -424,6 +428,7 @@
 .footer__column-links {
   margin: 0px;
   padding: 20px 0px 16px;
+  list-style-type: none;
 }
 
 .footer__column-heading {
@@ -441,7 +446,15 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  align-items: baseline
+  align-items: baseline;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__column-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .footer__social-icon {
@@ -452,6 +465,6 @@
 
 .footer__text {
   padding-left: 10px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
