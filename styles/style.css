@@ -10,7 +10,7 @@
   height: 32px;
 }
 
-.logo__place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 65px;
@@ -26,9 +26,6 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-}
-
-.header__position {
   padding-left: 64px;
   position: relative;
 }
@@ -44,9 +41,6 @@
 .header__text {
   max-width: 388px;
   width: 388px;
-}
-
-.header__text-position {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -63,21 +57,15 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-}
-
-.header__image-position {
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
-.header__square {
+.header__square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
-}
-
-.header__square-position {
   position: absolute;
   top: 64px;
   right: 0px;
@@ -87,10 +75,6 @@
 
 .description {
   color: #000000;
-
-}
-
-.description__position {
   margin: 100px;
   position: relative;
 }
@@ -123,13 +107,14 @@
 .two-columns__paragraph {
   margin: 0px;
   padding: 0px;
-}
-
-.two-columns__position {
   padding-top: 30px;
 }
 
-.two-columns__paragraph_bold {
+.two-columns__paragraph:nth-child(1) {
+  padding-top: 0px;
+}
+
+.two-columns__span-accent {
   font-weight: bold;
 }
 
@@ -139,9 +124,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.digits__position {
   position: relative;
 }
 
@@ -151,9 +133,6 @@
   font-size: 60px;
   text-align: center;
   font-weight: bold;
-}
-
-.section-title__position {
   padding-top: 100px;
   margin: 0px;
 }
@@ -164,9 +143,6 @@
   font-size: 24px;
   text-align: center;
   font-weight: normal;
-}
-
-.section-subtitle__position {
   padding: 0;
   margin: 0;
   padding-top: 20px;
@@ -178,9 +154,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.table__position {
   margin: 0px auto 100px;
   padding: 0px;
 }
@@ -214,9 +187,6 @@
   flex-direction: column;
   align-items: center;
   height: 890px;
-}
-
-.feynman__position {
   position: relative;
 }
 
@@ -240,9 +210,6 @@
   padding: 0;
   padding-top: 70px;
   z-index: 1;
-}
-
-.feynman_flex_column {
   flex-direction: column;
 }
 
@@ -272,9 +239,6 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-}
-
-.kaufman__position {
   position: relative;
 }
 
@@ -347,18 +311,15 @@
 /* ———————————————————————————————— */
 
 .footer {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
-}
-
-.footer_position {
   display: flex;
   justify-content: center;
   position: relative;
   margin: 0px;
   padding: 0px;
 }
+
+
 
 .logo_place_footer {
   width: 183px;
