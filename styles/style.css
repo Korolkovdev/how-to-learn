@@ -228,12 +228,6 @@
   text-decoration: none;
   color:#2f80ed;
 }
-/* Я изменил изображение с img на background-image, но в любом случае, вы написали, что в брифе не написано что это нужно делать
-абсолютным позицианированием, а на самом деле там написано, что можно и так и так */
-.feynman__image {
-  width: 867px;
-  height: 637px;
-}
 
 
 
@@ -250,25 +244,8 @@
   padding-top: 90px;
 }
 
-.section-title {
-  width: 60%;
-  line-height: 115%;
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-}
-
 .section-title_theme_dark {
   color: #f2f2f2;
-}
-
-.section-subtitle {
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  text-align: center;
-  font-weight: normal;
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -286,10 +263,6 @@
 
 .table_theme_dark {
   color: #f2f2f2;
-}
-
-.table__cell {
-  
 }
 
 .table__cell_theme_dark {
@@ -380,9 +353,10 @@
 
 }
 
-.column_content_info {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
+  justify-content: space-between
 }
 
 .column_content_social {
