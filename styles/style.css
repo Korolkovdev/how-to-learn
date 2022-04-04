@@ -30,11 +30,11 @@
 }
 
 .header__title {
+  margin: 0px;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
-  margin: 0px;
   padding: 0px;
   padding-left: 64px;
   line-height: 96px;
@@ -135,7 +135,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 100px; 
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
