@@ -33,12 +33,12 @@
   width: 730px;
   font-size: 102px;
   font-weight: bold;
-  margin: 0;
   z-index: 2;
   margin: 0px;
   padding: 0px;
   padding-left: 64px;
   line-height: 96px;
+  box-sizing: content-box;
 }
 
 .header__subtitle {
