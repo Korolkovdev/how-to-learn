@@ -5,9 +5,6 @@
 @import url(../vendor/normalize.css);
 
 
-@import url(../blocks/);
-
-
 @import url(../blocks/page/page.css);
 
 /* ----- Шапка ----- */
@@ -105,7 +102,6 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__image/_position/cards__image_position.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
